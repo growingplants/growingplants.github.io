@@ -316,6 +316,22 @@
   
 
   
+  <div id="gitment-ctn"></div> 
+<link rel="stylesheet" href="//imsun.github.io/gitment/style/default.css">
+<script src="//imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+var gitment = new Gitment({
+  id: "http://yoursite.com/2018/12/03/hello-world/",
+  owner: 'growingplants',
+  repo: 'growingplants.github.io',
+  oauth: {
+    client_id: '3f4b8ed7981de90b56fc',
+    client_secret: '120ba4971d0c9cd5fba16f299c1819f4a7bcb414',
+  },
+})
+gitment.render('gitment-ctn')
+</script>
+  
 
 
           </div>
